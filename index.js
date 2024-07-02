@@ -21,7 +21,8 @@ function escolheOperacao(op) {
 }
 
 function calcular() {
-    tagResultado = document.getElementById("resultado");
+    let tagResultado = document.getElementById("resultado");
+
     valorDois = valorTemp;
     valorTemp = '0';
 
@@ -40,5 +41,10 @@ function calcular() {
     }
 
     tagResultado.innerHTML = resultado;
+    if(resultado < 0){
+        tagResultado.style.color = 'red';
+    }else{
+        tagResultado.style.color = 'green';
+    }
     console.log(resultado);
 }
