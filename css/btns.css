@@ -1,0 +1,26 @@
+#btns{
+    height: 70vh;
+    width: 100vw;
+
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+}
+
+.btn{
+    border: 0;
+    width: 23vw;
+    height: 23vw;
+
+    background-color: #f5f4f4;
+    border-radius: 2vw;
+
+    font-size: 10vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #333335;
+}
+
+#igual{
+    width: 48vw;
+}

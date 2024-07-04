@@ -5,31 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULADORA</title>
 
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <input placeholder="valor 1"></input>
-    <input placeholder="valor 2"></input>
-    <h1 id="resultado">RESULTADO</h1>
-    <div>
-        <button onclick="attValor('0')">0</button>
-        <button onclick="attValor('1')">1</button>
-        <button onclick="attValor('2')">2</button>
-        <button onclick="attValor('3')">3</button>
-        <button onclick="attValor('4')">4</button>
-        <button onclick="attValor('5')">5</button>
-        <button onclick="attValor('6')">6</button>
-        <button onclick="attValor('7')">7</button>
-        <button onclick="attValor('8')">8</button>
-        <button onclick="attValor('9')">9</button>
-    </div>
-    <div>
-        <button onclick="escolheOperacao('+')">+</button>
-        <button onclick="escolheOperacao('-')">-</button>
-        <button onclick="escolheOperacao('*')">*</button>
-        <button onclick="escolheOperacao('/')">/</button>
-        <button onclick="calcular()">=</button>
-    </div>
+    <header id="menu">
+        <div id="title_icon">
+            <h5>Histórico</h5>
+            <div id="menu_icon"></div>
+        </div>
+        <div id="historico"></div>
+    </header>
+    <section id="body">
+        <h1 id="resultado">0</h1>
+        <div id="btns">
+            <button class="btn">C</button>
+            <button class="btn"><</button>
+            <button class="btn op">%</button>
+            <button class="btn op">/</button>
+            <button class="btn numerico">7</button>
+            <button class="btn numerico">8</button>
+            <button class="btn numerico">9</button>
+            <button class="btn op">*</button>
+            <button class="btn numerico">4</button>
+            <button class="btn numerico">5</button>
+            <button class="btn numerico">6</button>
+            <button class="btn op">+</button>
+            <button class="btn numerico">1</button>
+            <button class="btn numerico">2</button>
+            <button class="btn numerico">3</button>
+            <button class="btn op">-</button>
+            <button class="btn ">.</button>
+            <button class="btn numerico">0</button>
+            <button class="btn" id="igual">=</button>
+        </div id="btns">
+    </section>
 </body>
 </html>
