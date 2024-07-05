@@ -1,7 +1,14 @@
 #resultado{
-    font-size: 20vw;
+    font-size: 17vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: end;
 
-    margin: 5vw;
+    margin: 0 5vw 5vw;
+}
+#previa{
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+
+    margin: 5vw 5vw 0;
 }

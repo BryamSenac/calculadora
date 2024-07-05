@@ -6,7 +6,7 @@
     <title>CALCULADORA</title>
 
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./index.js" defer></script>
+    <script type="module" src="./js/index.js" defer></script>
 </head>
 <body>
     <div class="menu-icon" id="icon" onclick="controleMenu()"></div>
@@ -15,10 +15,11 @@
             <div id="title_icon">
                 <h5>Histórico</h5>
             </div>
-            <div id="historico"><p>5 + 5 = 10</p></div>
+            <div id="historico"></div>
         </div >
     </header>
     <section id="body">
+        <h6 id="previa">0</h6>
         <h1 id="resultado">0</h1>
         <div id="btns">
             <button class="btn">C</button>
