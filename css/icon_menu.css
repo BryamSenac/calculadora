@@ -1,0 +1,59 @@
+#icon{
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+    z-index: 2;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #333333;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100vw;
+}
+
+.menu-icon{
+    width: 9vw;
+    height: 1vw;
+}
+.menu-icon::before,
+.menu-icon::after{
+    content: '';
+    position: absolute;
+    width: 9vw;
+    height: 1.2vw;
+
+    background-color: #333333;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100vw;
+}
+.menu-icon::before{
+    top: -2.5vw;
+}
+.menu-icon::after{
+    top: 2.5vw;
+}
+
+.x-icon{
+    background-color: transparent;
+}
+.x-icon::before,
+.x-icon::after {
+    content: '';
+    position: absolute;
+    top: 1vw;
+    width: 9vw;
+    height: 1.2vw;
+
+    background-color: white;
+    transform-origin: center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100vw;
+}
+.x-icon::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.x-icon::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
