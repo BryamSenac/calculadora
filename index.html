@@ -22,25 +22,25 @@
         <h6 id="previa">0</h6>
         <h1 id="resultado">0</h1>
         <div id="btns">
-            <button class="btn">C</button>
-            <button class="btn"><</button>
-            <button class="btn op">%</button>
-            <button class="btn op">/</button>
-            <button class="btn numerico">7</button>
-            <button class="btn numerico">8</button>
-            <button class="btn numerico">9</button>
-            <button class="btn op">*</button>
-            <button class="btn numerico">4</button>
-            <button class="btn numerico">5</button>
-            <button class="btn numerico">6</button>
-            <button class="btn op">+</button>
-            <button class="btn numerico">1</button>
-            <button class="btn numerico">2</button>
-            <button class="btn numerico">3</button>
-            <button class="btn op">-</button>
-            <button class="btn ">.</button>
-            <button class="btn numerico">0</button>
-            <button class="btn" id="igual">=</button>
+            <button class="btn" onclick="attNumero('C')">C</button>
+            <button class="btn" onclick="attNumero('<')"><</button>
+            <button class="btn op" onclick="attOperacao('%')">%</button>
+            <button class="btn op" onclick="attOperacao('/')">/</button>
+            <button class="btn numerico" onclick="attNumero('7')">7</button>
+            <button class="btn numerico" onclick="attNumero('8')">8</button>
+            <button class="btn numerico" onclick="attNumero('9')">9</button>
+            <button class="btn op" onclick="attOperacao('*')">*</button>
+            <button class="btn numerico" onclick="attNumero('4')">4</button>
+            <button class="btn numerico" onclick="attNumero('5')">5</button>
+            <button class="btn numerico" onclick="attNumero('6')">6</button>
+            <button class="btn op" onclick="attOperacao('+')">+</button>
+            <button class="btn numerico" onclick="attNumero('1')">1</button>
+            <button class="btn numerico" onclick="attNumero('2')">2</button>
+            <button class="btn numerico" onclick="attNumero('3')">3</button>
+            <button class="btn op" onclick="attOperacao('-')">-</button>
+            <button class="btn" onclick="attNumero('.')">.</button>
+            <button class="btn numerico" onclick="attNumero('0')">0</button>
+            <button class="btn" id="igual" onclick="attCalcular()">=</button>
         </div id="btns">
     </section>
 </body>

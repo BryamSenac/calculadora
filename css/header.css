@@ -21,7 +21,7 @@ header{
 }
 #title_icon{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 6vw;
+    font-size: 7vw;
     margin: 3vw 6vw;
 }
 #historico{
@@ -31,5 +31,9 @@ header{
     padding: 5vw;
 
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
     text-align: end;
+}
+#historico p{
+    padding: 1vw;
 }
